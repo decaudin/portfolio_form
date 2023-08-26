@@ -1,0 +1,47 @@
+.footer {
+    display: flex;
+    margin: auto;
+    width: 97%;
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 6px 6px 8px rgb(207, 207, 207);
+    color: white;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 110px;
+    p {
+        margin: auto;
+        font-size: 20px;
+    }
+    .contactLink {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        width: 20%;
+        a {
+            img {
+                background-color: white;
+                border-radius: 7px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer {
+        .contactLink {
+            width: 30%;
+        }
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .footer {
+        p {
+            font-size: 14px;
+        }
+        .contactLink {
+            width: 38%;
+        }
+    }
+}

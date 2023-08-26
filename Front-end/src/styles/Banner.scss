@@ -1,0 +1,58 @@
+  .banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 80px;
+    transition: transform 1s ease-in-out;
+    transform: translateX(100%);
+    margin-bottom: 50px;
+  
+    &.animate {
+      transform: translateX(0);
+  
+      .headerImg {
+        transform: rotate(360deg);
+      }
+    }
+  
+    .headerImg {
+      width: 18%;
+      height: auto;
+      border-radius: 130px;
+      transition: transform 1s ease-in-out;
+    }
+
+    .description {
+        width: 60%;
+        
+        h2 {
+          font-weight: 400;
+          font-size: 40px;
+        }
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .banner {
+      flex-direction: column;
+      .headerImg {
+        width: 36%;
+      }
+      .description {
+        width: 80%;
+      }
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
