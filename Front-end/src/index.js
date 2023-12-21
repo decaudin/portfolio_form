@@ -16,7 +16,7 @@ const rootRender = ReactDOM.createRoot(root);
 
 let bannerKey = 0;
 
-function handleHomeClick() {
+const handleHomeClick = () => {
   bannerKey += 1;
   rootRender.render(
     <React.StrictMode>

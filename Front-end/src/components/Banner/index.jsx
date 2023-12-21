@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "../styles/Banner.scss";
-import header_img from "../assets/header_img.webp";
+import "./index.scss";
+import header_img from "../../assets/header_img.webp";
 
 
 const Banner = () => {

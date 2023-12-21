@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import "../styles/Portfolio.scss";
-import Booki from "../assets/projects/Booki.png";
-import SophieBluel from "../assets/projects/SophieBluel.png";
-import NinaCarducci from "../assets/projects/NinaCarducci.png";
-import Kasa from "../assets/projects/Kasa.png";
-import MonVieuxGrimoire from "../assets/projects/MonVieuxGrimoire.png";
+import "./index.scss";
+import Booki from "../../assets/projects/Booki.png";
+import SophieBluel from "../../assets/projects/SophieBluel.png";
+import NinaCarducci from "../../assets/projects/NinaCarducci.png";
+import Kasa from "../../assets/projects/Kasa.png";
+import MonVieuxGrimoire from "../../assets/projects/MonVieuxGrimoire.png";
 
 const Portfolio = () => {
     const [isModalOpen, setModalOpen] = useState(false);

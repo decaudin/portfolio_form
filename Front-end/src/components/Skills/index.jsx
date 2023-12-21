@@ -1,15 +1,15 @@
 import React from "react";
-import "../styles/Skills.scss";
+import "./index.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faCodeBranch, faKeyboard } from '@fortawesome/free-solid-svg-icons';
-import html_logo from "../assets/logo/html_logo.png";
-import css_logo from "../assets/logo/css_logo.png";
-import js_logo from "../assets/logo/js_logo.png";
-import react_logo from "../assets/logo/react_logo.png";
-import nodejs_logo from "../assets/logo/nodejs_logo.png";
-import expressjs_logo from "../assets/logo/expressjs_logo.png"
-import mongodb_logo from "../assets/logo/mongodb_logo.png";
-import github_logo from "../assets/logo/github_logo.png"
+import html_logo from "../../assets/logo/html_logo.png";
+import css_logo from "../../assets/logo/css_logo.png";
+import js_logo from "../../assets/logo/js_logo.png";
+import react_logo from "../../assets/logo/react_logo.png";
+import nodejs_logo from "../../assets/logo/nodejs_logo.png";
+import expressjs_logo from "../../assets/logo/expressjs_logo.png"
+import mongodb_logo from "../../assets/logo/mongodb_logo.png";
+import github_logo from "../../assets/logo/github_logo.png"
 
 
 const Skills = () => {

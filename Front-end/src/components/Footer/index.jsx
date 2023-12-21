@@ -1,6 +1,6 @@
-import "../styles/Footer.scss";
-import iconeGithub from "../assets/icone/iconGithub.png";
-import iconeLinkedin from "../assets/icone/iconLinkedin.png";
+import "./index.scss";
+import iconeGithub from "../../assets/icone/iconGithub.png";
+import iconeLinkedin from "../../assets/icone/iconLinkedin.png";
 
 const Footer = () => {
     return (

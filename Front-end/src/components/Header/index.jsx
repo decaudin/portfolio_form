@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll"; 
-import "../styles/Header.scss";
+import "./index.scss";
 
 const Header = ({ onClickHome }) => {
     return (
